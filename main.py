@@ -203,11 +203,11 @@ async def clear(ctx, amount=5):
 async def commands(ctx):
   em = discord.Embed(title = "List of Bot Commands")
 
-  em.add_field(name= "!Test (message)", value ="takes a message, then bot send message back")
+  em.add_field(name= "!test message", value ="takes a message, then bot send message back")
   em.add_field(name= "!Hello_There", value ="sends a response")
   em.add_field(name= "!HAPPY", value ="sends a response")
   em.add_field(name= "!pyjoke", value ="replies with a python joke")
-  em.add_field(name= "!ask (message)", value ="takes a message, replies with magic 8 ball response")
+  em.add_field(name= "!ask message", value ="takes a message, replies with magic 8 ball response")
   em.add_field(name= "!cf", value ="flips a coin")
   em.add_field(name= "!rtd", value ="rolls a dice")
   em.add_field(name= "!pika", value ="sends a pikachu gif or image")

@@ -1,6 +1,2 @@
 discord
-random
-json
-aiohttp
-pyjokes
 os

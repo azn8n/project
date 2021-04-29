@@ -1,2 +1,4 @@
 discord
-os
+json
+aiohttp
+pyjokes

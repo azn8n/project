@@ -1,0 +1,8 @@
+discord
+discord.ext.commands
+discord.ext
+random
+json
+aiohttp
+pyjokes
+os

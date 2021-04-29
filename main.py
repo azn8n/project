@@ -222,4 +222,4 @@ async def commands(ctx):
 
   await ctx.send(embed = em)
 
-client.run(${{secrets.TOKEN}})
+client.run(os.environ['TOKEN'])

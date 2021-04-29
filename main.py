@@ -1,5 +1,4 @@
 import discord
-from discord.ext.commands import Bot, has_permissions, bot_has_permissions, guild_only
 from discord.ext import commands
 import random
 import json

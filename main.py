@@ -8,8 +8,6 @@ from pyjokes import get_joke, get_jokes
 import os
 
 
-TOKEN = "ODM2MDcyNzc4MzcyMjE4ODgx.YIYrcw.g-QICjDOhaK2XoR-Q55s6dVo4Ng"
-
 client = Bot(command_prefix="!")
 
 
@@ -224,4 +222,4 @@ async def commands(ctx):
 
   await ctx.send(embed = em)
 
-client.run("ODM2MDcyNzc4MzcyMjE4ODgx.YIYrcw.g-QICjDOhaK2XoR-Q55s6dVo4Ng")
+client.run(${{secrets.TOKEN}})
